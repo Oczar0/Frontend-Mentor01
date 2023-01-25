@@ -1,0 +1,79 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.container {
+  width: 1440px;
+  height: calc(100vh - 12px);
+  background: #6c7a89;
+  display: grid;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .imagem {
+  border-radius: 10px;
+  display: flex;
+  grid-column: 1;
+
+}
+
+
+.container img {
+  border-radius: 10px 0px 0px 10px;
+  
+}
+
+.container .palavras {
+  padding: 20px;
+  display: column; 
+  grid-column: 2;
+  background-color:red;
+  border-radius: 0px 10px 10px 0px;
+ 
+}
+.palavras p {
+  color:#6c7a89;
+  font-size: 12px;
+  font-family: Montserrat;
+}
+.palavras h1{
+  font-size:28px;
+  font-family:Fraunces;
+}
+.preços{
+  align-items: center;
+  align-content: center;
+  
+}
+.preços h2{
+  font-size: 20px;
+  font-family: Fraunces;
+  color:rgb(2, 119, 94);
+}
+.preços h3 {
+  font-size: 10px;
+  color:#6c7a89;
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+.botao {
+  background-color: hsl(228, 12%, 48%);
+  color: #ffffff;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: 0.5s all ease-in-out;
+  
+}
+.preços {
+  display:flex;
+}
